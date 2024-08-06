@@ -1,0 +1,164 @@
+.mainContainer .main {
+  width: 95%;
+  /* border: 1px solid #fff; */
+  padding: 1%;
+}
+.title h2 {
+  margin: 20px auto;
+}
+.title {
+  margin-left: 20px;
+}
+.line2 {
+  width: 100%;
+  border: #1b1c1d 0.25px solid;
+}
+
+.hero {
+  list-style: none;
+  position: absolute;
+  top: 60px;
+}
+.hero .hero-img {
+  position: relative;
+  width: 100%;
+}
+.hero .hero-logo {
+  position: absolute;
+  width: 50%;
+  bottom: 0;
+  left: 0;
+}
+.section-category {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin: 24px 0 30px;
+  margin-left: 20px;
+  overflow: auto hidden;
+  position: relative;
+  white-space: nowrap;
+  padding-right: 40px;
+  padding-left: 0;
+}
+
+.section-category ul {
+  display: flex;
+  padding-left: 40px;
+  height: 60px;
+  list-style-type: none;
+  margin: 0;
+  margin-block: 0 0;
+  margin-inline: 0;
+  padding-inline-start: 0;
+}
+.section-category ul li {
+  display: inline-block;
+  line-height: 20px;
+  margin: 0 8px 8px 0;
+}
+.section-category ul li button {
+  background-color: #000;
+  border-color: #2e2f31;
+  border-radius: 24px;
+  border-style: solid;
+  border-width: 2px;
+  color: #84868d;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.section-hero {
+  margin: 40px 0;
+}
+.poster-wrapper {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  margin: auto;
+  justify-content: space-between;
+}
+.poster-wrapper ul {
+  white-space: nowrap;
+  display: flex;
+  overflow: hidden;
+}
+.poster-wrapper ul li {
+  vertical-align: top;
+}
+.poster-wrapper .detail-text:before {
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.6) 95.22%);
+  content: '';
+  display: block;
+  inset: 0;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.poster {
+  flex-basis: 70%;
+  border: 1px solid black;
+  position: relative;
+  margin: 0 20px 0 20px;
+}
+
+.poster .hero-poster-img {
+  object-fit: cover;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  display: block;
+}
+.poster .hero-poster-logo {
+  bottom: 80px;
+  left: 20px;
+  max-height: 120px;
+  max-width: 354px;
+  object-fit: contain;
+}
+.poster .logo-detail {
+  bottom: 0;
+  left: 0;
+  padding: 0 40px 40px;
+  right: 0;
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+}
+.poster .logo-detail .detail {
+  margin-top: 5px;
+}
+
+.section-banner {
+  align-items: center;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  margin: 0 auto;
+}
+.section-banner a {
+  display: block;
+  position: relative;
+}
+.section-banner .banner {
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #ceebff;
+}
+
+.section-banner .banner .banner-img {
+  align-items: start;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  max-width: 708px;
+}
+
+.section-banner .event-banner {
+  object-fit: contain;
+  width: 100%;
+}

@@ -1,0 +1,159 @@
+.container {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* .logo img {
+  float: left;
+  position: relative;
+  height: 70px;
+} */
+form {
+  display: block;
+  margin-top: 0em;
+  unicode-bidi: isolate;
+}
+
+.login .main {
+  display: block;
+  background-color: #000;
+  flex: 1;
+}
+
+.login .middle {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+}
+
+.middle .login-under {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  margin-top: 150px;
+}
+
+input {
+  display: flex;
+}
+.input-email,
+.input-password {
+  border-color: hsla(258, 5%, 61%, 0.2);
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  line-height: normal;
+  font-weight: 500;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  color: #333;
+  font-weight: 500;
+  padding: 10px 10px 10px 14px;
+  width: 100%;
+}
+.input-email {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-width: 0;
+}
+.input-password {
+  border-top: 1px solid #d4d4d4;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.login-button {
+  border-bottom: 1px solid hsla(258, 5%, 61%, 0.2);
+  margin: 16px 0 0;
+  padding: 0 0 21px;
+  width: 100%;
+}
+.login-button button {
+  font-size: 16px;
+  height: 48px;
+  line-height: 47px;
+  height: 50px;
+  opacity: 0.3;
+  width: 100%;
+  border-radius: 50px;
+  border: 0px;
+  background-color: #f82f62;
+}
+.another-way {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  margin: 15px 0 13px;
+  opacity: 0.6;
+}
+.input {
+  position: relative;
+  width: 100%;
+}
+.login-top {
+  align-items: flex-start;
+  display: flex;
+  margin: 0 0 16px;
+}
+.title-name {
+  color: #fff;
+  flex: 1;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+}
+.lost-password {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+  opacity: 0.5;
+  padding: 4px 0 0;
+}
+
+.background {
+  background: hsla(0, 0%, 100%, 0.8);
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  opacity: 0.2;
+  position: fixed;
+  top: 0;
+  transition: opacity 0.5s;
+  width: 100%;
+  z-index: 0;
+}
+.another-way {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  margin: 15px 0 13px;
+  opacity: 0.6;
+}
+.L-footer {
+  width: 100%;
+  height: 20vh;
+  padding-top: 65px;
+}
+.L-footer ul {
+  display: flex;
+  font-size: 12px;
+  bottom: 0;
+  justify-content: center;
+  text-align: center;
+}
+.L-footer ul li {
+  margin-right: 3px;
+}

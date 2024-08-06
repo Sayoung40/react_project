@@ -1,0 +1,95 @@
+a {
+  text-decoration: none;
+}
+
+.navbar-side {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 220px;
+  height: 100%;
+  background-color: #141517;
+  border: #1b1c1d 1px solid;
+  z-index: 300;
+}
+.logo img {
+  width: 120px;
+  margin-left: 20px;
+}
+.logo-a {
+  position: relative;
+}
+.navbar-side ul {
+  list-style-type: none;
+  margin: 50px 0;
+  margin-block: 0 0;
+  margin-inline: 0;
+  padding: 0;
+  padding-inline-start: 0;
+}
+.navbar-side ul li {
+  margin-left: 20px;
+  margin-top: 5px;
+  list-style: none;
+  height: 30px;
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: transparent;
+  outline: none;
+}
+.navbar-side ul li a {
+  color: #d4d7db;
+}
+
+.line {
+  width: 160px;
+  border: #1b1c1d 0.25px solid;
+  margin: 30px 25px 30px auto;
+}
+.navbar-top {
+  position: relative;
+  height: 65px;
+  background-color: #141517;
+  padding-left: 240px;
+  position: fixed;
+  width: 100%;
+  z-index: 299;
+}
+.navbar-top .login {
+  display: flex;
+  justify-content: right;
+}
+.navbar-top .login ul {
+  position: absolute;
+  display: flex;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+.navbar-top .login ul li {
+  cursor: pointer;
+  list-style-type: none;
+  padding: 10px;
+}
+.navbar-top .login ul li i {
+  margin-right: 5px;
+}
+.navbar-top .login ul .login-button,
+.join-button {
+  width: 70px;
+  font-size: 13px;
+  margin: auto 5px auto;
+  height: 32px;
+  padding: 0 12px;
+  align-items: center;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  line-height: 30px;
+}
+.navbar-top .login ul .join-button {
+  background-color: #f82f62;
+}

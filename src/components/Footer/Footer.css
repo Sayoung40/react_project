@@ -1,0 +1,15 @@
+.footer {
+  width: 100%;
+  height: 20vh;
+  margin: 80px 20px 120px;
+  padding-left: 220px;
+  padding-top: 65px;
+}
+
+.footer ul {
+  display: flex;
+  font-size: 12px;
+}
+.footer ul li {
+  margin-right: 3px;
+}

@@ -1,0 +1,43 @@
+.nav {
+  display: block;
+  font-size: 14px;
+  height: 72px;
+  letter-spacing: -0.4px;
+  padding: 0 4%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 500;
+}
+.nav .join {
+  display: flex;
+  float: right;
+  position: relative;
+}
+
+.nav .join a {
+  margin: 23px 0 0;
+  padding: 0 11px;
+  height: 32px;
+  background-color: transparent;
+  border: 1px solid hsla(0, 0%, 100%, 0.15);
+  color: #fff;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.nav .join a span {
+  margin: 2px 0;
+  font-weight: 500;
+}
+.logo-button {
+  position: relative;
+}
+.nav .logo {
+  position: absolute;
+  width: 120px;
+}
